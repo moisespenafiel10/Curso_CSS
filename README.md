@@ -17,7 +17,8 @@ y a raiz de esta separacion se crea en la primera version de esta tecnologia las
 ```css
 <style>
     h1 {
-        color:red
+        COLOR:RED;
+        FONT-SIZE:45PX;
     }
 </style>
 

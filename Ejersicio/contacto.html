@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Portafolio Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav {
+            background-color: #1d595ed2;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"], input[type="button"] {
+            background-color: #1d595ed2;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover, input[type="button"]:hover {
+            background-color: #1d595e;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contacto</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="hobbies.html">Hobbies</a>
+</nav>
+
+<form action="#" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+    <label for="celular">Celular:</label>
+    <input type="tel" id="celular" name="celular" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <input type="submit" value="Enviar">
+    <input type="button" value="Cancelar" onclick="window.history.back()">
+</form>
+
+</body>
+</html>
