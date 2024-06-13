@@ -9,7 +9,7 @@ style se usaba para darle estilos como formato y color a la etiqueta que hacia u
 <h1 style = "color:red;font=size:45px>"hola amigos"</h1>
 ```
 
-### css el rpincipio
+### css el principio
 se separa parte del equipo html para la creacon y mantenimiento de una nueva tecnologia a la que llamas "CSS" (cascadin style sheet - hojas de stlio en cascada).
 y a raiz de esta separacion se crea en la primera version de esta tecnologia las etiquetas `<style></style>`.
 
